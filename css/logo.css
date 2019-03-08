@@ -15,7 +15,9 @@
     border: 4px black solid;
     z-index: 5;
 /*    animation: logoAnimation 24s linear infinite 0s;*/
-    animation: squareAnimation 24s linear infinite 0s;
+    animation: squareAnimation 24s linear infinite 0s;     
+    -webkit-animation: squareAnimation 24s linear infinite 0s;
+
 }
 
 .logo h6 {
@@ -25,6 +27,7 @@
     margin-bottom: 5px;
     font-size: 8px;
     animation: textAnimation 24s linear infinite 0s;
+    -webkit-animation: textAnimation 24s linear infinite 0s;
 }
 
 .logo p {
@@ -32,6 +35,7 @@
     font-size: 8px;
     letter-spacing: 0.03rem;
     animation: textAnimation 24s linear infinite 0s;
+    -webkit-animation: textAnimation 24s linear infinite 0s;
 }
 
 .squareTwo {
@@ -41,6 +45,7 @@
     border: 4px black solid;
     transform: rotate(20deg);
     animation: squareAnimation 24s linear infinite 0s;
+    -webkit-animation: squareAnimation 24s linear infinite 0s;
 }
 
 .squareThree {
@@ -50,6 +55,7 @@
     border: 4px black solid;
     transform: rotate(45deg);
     animation: squareAnimation 24s linear infinite 0s;
+    -webkit-animation: squareAnimation 24s linear infinite 0s;
 }
 
 @keyframes logoAnimation {
