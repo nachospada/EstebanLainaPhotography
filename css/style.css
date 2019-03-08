@@ -284,6 +284,7 @@ body {
 }
 
 /* Animation for the slideshow images */
+/*
 @-webkit-keyframes imageAnimation { 
 	0% {
 	    opacity: 0;
@@ -364,6 +365,7 @@ body {
 	}
 	100% { opacity: 0 }
 }
+*/
 @keyframes imageAnimation { 
 	0% {
 	    opacity: 0;
