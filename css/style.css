@@ -130,13 +130,14 @@ a {
     transition: all .3s ease-out;
 }
 
-.first-menu-column h4 {
+.first-menu-column h6 {
     opacity: 0;
     color: #fff;
+    letter-spacing: 0.4rem;
     text-shadow: 0 0 10px #000;
 }
 
-.first-menu-column:hover h4{
+.first-menu-column:hover h6 {
     opacity: 1;
     transform: scale(1.1);
     transition: all .5s ease-out;
@@ -162,13 +163,14 @@ a {
     transition: all .3s ease-out;
 }
 
-.second-menu-column h4 {
+.second-menu-column h6 {
     opacity: 0;
     color: #fff;
+    letter-spacing: 0.4rem;
     text-shadow: 0 0 10px #000;
 }
 
-.second-menu-column:hover h4{
+.second-menu-column:hover h6{
     opacity: 1;
     transform: scale(1.1);
     transition: all .5s ease-out;
@@ -194,13 +196,14 @@ a {
     transition: all .3s ease-out;
 }
 
-.third-menu-column h4 {
+.third-menu-column h6 {
     opacity: 0;
     color: #fff;
+    letter-spacing: 0.4rem;
     text-shadow: 0 0 10px #000;
 }
 
-.third-menu-column:hover h4{
+.third-menu-column:hover h6{
     opacity: 1;
     transform: scale(1.1);
     transition: all .5s ease-out;
@@ -226,13 +229,14 @@ a {
     transition: all .3s ease-out;
 }
 
-.forth-menu-column h4 {
+.forth-menu-column h6 {
     opacity: 0;
     color: #fff;
+    letter-spacing: 0.4rem;
     text-shadow: 0 0 10px #000;
 }
 
-.forth-menu-column:hover h4{
+.forth-menu-column:hover h6{
     opacity: 1;
     transform: scale(1.1);
     transition: all .5s ease-out;
