@@ -34,15 +34,6 @@
     animation: textAnimation 24s linear infinite 0s;
 }
 
-/*
-.square {
-    position: absolute;
-    height: 200px;
-    width: 200px;
-    border: 4px black solid;
-}
-*/
-
 .squareTwo {
     position: absolute;
     height: 150px;
@@ -61,60 +52,7 @@
     animation: squareAnimation 24s linear infinite 0s;
 }
 
-/* ANIMATION LOGO */
-
-/*
 @keyframes logoAnimation {
-    0% {
-        opacity: 0;
-        top: 50px;
-        left: 50px;
-    }
-    
-    5% {
-        opacity: 1;
-    }
-    
-    50% {
-        top:50px;
-        left:50px;
-        opacity: 1;
-    }
-    
-    55% {
-        opacity: 0;
-        top: 50px;
-        left: 50px;
-    }
-    
-    56% {
-        opacity: 0;
-        top: 50px;
-        left: 1000px;
-    }
-    
-    57% {
-        opacity: 1;
-    }
-    
-    100% {
-        opacity: 0;
-        top: 50px;
-        left: 1000px;
-    }
-}*/
-
-@keyframes logoAnimation {
-/*
-    0% {
-        opacity: 0;
-    }
-    
-    5% {
-        opacity: 1;
-    }
-    
-*/
     35% {
         color: black;
     }
@@ -133,16 +71,6 @@
 }
 
 @keyframes textAnimation {
-/*
-    0% {
-        opacity: 0;
-    }
-    
-    5% {
-        opacity: 1;
-    }
-*/
-    
     35% {
         color: black;
     }
@@ -160,17 +88,7 @@
     }
 }
 
-@keyframes squareAnimation {
-/*
-    0% {
-        opacity: 0;
-    }
-    
-    5% {
-        opacity: 1;
-    }
-*/
-    
+@keyframes squareAnimation { 
     35% {
         border: 4px black solid;
     }
