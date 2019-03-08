@@ -1,10 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Alex+Brush');
+/*@import url('https://fonts.googleapis.com/css?family=Alex+Brush');*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 
 * {
     margin: 0;
     padding: 0;
 }
 
+
+body {
+  font-family: Raleway;
+}
 
 /* MENU BUTTON */
 
@@ -40,7 +46,7 @@
 
 .menu-items {
     padding-left: 60px;
-    font-family: Patua One;
+/*    font-family: Patua One;*/
     font-weight: 100;
     font-size: 15px; 
     height: 100vh;
@@ -57,7 +63,7 @@
 
 .menu-items a {
     text-decoration: none;
-    font-size: 30px;
+    
     color: #000;
     padding-right: 20px;
     margin-bottom: 20px;
@@ -71,7 +77,10 @@
 
 .menu-items h2 {
     margin-top: 60px;
-    font-family: Alex Brush;
+/*    font-family: Alex Brush;*/
+    font-size: 12px;
+    letter-spacing: 0.4rem;
+    font-weight: bolder;
 }
 
 #activePage {
@@ -83,7 +92,7 @@
 }
 
 .menu-in {
-    font-family: Playball;
+/*    font-family: Playball;*/
     font-size: 30px;
     width: 100vw;
     height: 100vh;
@@ -379,12 +388,3 @@
         opacity: 0; 
     }
 }
-
-/* ABOUT */
-
-/*
-.about {
-    height: 100vh;
-    background: green;
-    z-index: 20;
-}*/
