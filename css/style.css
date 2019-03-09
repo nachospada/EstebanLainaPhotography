@@ -318,7 +318,272 @@ a {
     animation-delay: 40s;
 }
 
-/* Animation for the slideshow images */
+/* LOGO */
+
+.logo {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    height: 150px;
+    width: 150px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 4px black solid;
+    z-index: 5;
+    animation: squareAnimation 24s linear infinite 0s;     
+    -webkit-animation: squareAnimation 24s linear infinite 0s;
+
+}
+
+.logo h6 {
+    text-align: center;
+    font-family: Arial;
+    font-weight: bolder;
+    letter-spacing: 0.2rem;
+    margin-bottom: 5px;
+    font-size: 8px;
+    animation: textAnimation 24s linear infinite 0s;
+    -webkit-animation: textAnimation 24s linear infinite 0s;
+}
+
+.logo p {
+    font-family: Arial;
+    font-size: 8px;
+    letter-spacing: 0.03rem;
+    animation: textAnimation 24s linear infinite 0s;
+    -webkit-animation: textAnimation 24s linear infinite 0s;
+}
+
+.squareTwo {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border: 4px black solid;
+    transform: rotate(20deg);
+    animation: squareAnimation 24s linear infinite 0s;
+    -webkit-animation: squareAnimation 24s linear infinite 0s;
+}
+
+.squareThree {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border: 4px black solid;
+    transform: rotate(45deg);
+    animation: squareAnimation 24s linear infinite 0s;
+    -webkit-animation: squareAnimation 24s linear infinite 0s;
+}
+
+/* ALBUM SHOWCASE SECTION */
+
+.album {
+    overflow: hidden;
+    height: 110vh;
+    background: #222;
+}
+
+.albumContainer {
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 110vh;
+    width: 75vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+    padding: 120px 40px;
+}
+
+.albumCover {
+    background: #fff;
+    padding: 10px 10px 0 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 2px;
+}
+
+.albumCover:hover {
+    animation: shake 1s linear infinite 0s;
+    -webkit-animation: shake 1s linear infinite 0s;
+}
+
+.albumTitle {
+    z-index: 10;
+    color: #000;
+    font-family: Raleway;
+    font-size: 12px;
+    letter-spacing:2px;
+    text-transform: uppercase;
+    background: #fff;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.firstAlbum {
+    height: 100%;
+    background-image: url(../images/albums/album1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all .3s ease-out;
+}
+
+.secondAlbum {
+    height: 100%;
+    background-image: url(../images/albums/album2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all .3s ease-out;
+}
+
+.thirdAlbum {
+    height: 100%;
+    background-image: url(../images/albums/album3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all .3s ease-out;
+}
+
+.fourthAlbum {
+    height: 100%;
+    background-image: url(../images/albums/album4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all .3s ease-out;
+}
+
+
+.fifthAlbum {
+    height: 100%;
+    background-image: url(../images/albums/album5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all .3s ease-out;
+}
+
+.sixthAlbum {
+    height: 100%;
+    background-image: url(../images/albums/album6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all .3s ease-out;
+}
+
+
+.seventhAlbum {
+    height: 100%;
+    background-image: url(../images/albums/album7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all .3s ease-out;
+}
+
+.eigthAlbum {
+    height: 100%;
+    background-image: url(../images/albums/album8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all .3s ease-out;
+}
+
+
+/* FOTTER */
+
+footer {
+    background: #ddd;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logoFooter {
+/*
+    position: relative;
+    top: 50px;
+    left: 50px;
+*/
+    margin: 0 80px 20px 80px;
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px black solid;
+    z-index: 5;
+}
+
+.squareTwoFooter {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border: 2px black solid;
+    transform: rotate(20deg);
+}
+
+.squareThreeFooter {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border: 2px black solid;
+    transform: rotate(45deg);
+}
+
+
+footer h6 {
+    text-align: center;
+    font-family: Raleway;
+    margin-bottom: 5px;
+    font-size: 13px;
+    letter-spacing: 5px;
+}
+
+footer p {
+    font-family: Raleway;
+    font-size: 10px;
+    letter-spacing: 0.03rem;
+}
+
+.menuFooter {
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 12px;
+    margin: 15px 0;
+}
+
+.menuFooter a {
+    color: #000;
+    padding: 10px;
+}
+
+
+footer .icons {
+    color: #000;
+    text-decoration: none;
+}
+
+footer .icons i {
+    margin-top: 15px;
+    color: #000;
+    padding: 0 4px;
+}
+
+/* SLIDESHOW ANIMATIONS */
 
 @keyframes imageAnimation { 
 	0% {
@@ -342,5 +607,82 @@ a {
 	}
 	100% { 
         opacity: 0; 
+    }
+}
+
+/* LOGO ANIMATIONS */
+
+@keyframes logoAnimation {
+    35% {
+        color: black;
+    }
+    
+    40% {
+        color: white;
+    }
+    
+    70% {
+        color: white;
+    }
+    
+    75% {
+        color: black;
+    }
+}
+
+@keyframes textAnimation {
+    35% {
+        color: black;
+    }
+    
+    40% {
+        color: white;
+    }
+    
+    70% {
+        color: white;
+    }
+    
+    75% {
+        color: black;
+    }
+}
+
+@keyframes squareAnimation { 
+    35% {
+        border: 4px black solid;
+    }
+    
+    40% {
+        border: 4px white solid;
+    }
+    
+    70% {
+        border: 4px white solid;
+    }
+    
+    75% {
+        border: 4px black solid;
+    }
+}
+
+
+/* PHOTOA ANIMATION */
+
+@keyframes shake {
+    0% {
+        transform: rotate(0);
+    }
+    
+    35% {
+        transform: rotate(3deg);
+    }
+    
+    70% {
+        transform: rotate(-3deg);
+    }
+    
+    100% {
+        transform: rotate(0);
     }
 }
